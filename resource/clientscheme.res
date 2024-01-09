@@ -3035,6 +3035,36 @@ Scheme
 			}
 		}
 	
+		LegoishBold10
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+	
+		LegoishBold11
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"11"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBold12
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+	
 		LegoishBold15
 		{
 			"1"
