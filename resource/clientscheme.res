@@ -18,6 +18,12 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// Extra HUD colors
+		
+		"CoinNumberYellow"  "222 187 42 255"
+		"CharacterBoxBlue"  "25 88 214 255"
+		"CharacterBoxRed"   "214 25 25 255"
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3059,6 +3065,66 @@ Scheme
 			}
 		}
 		
+		LegoishBold41
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"41"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBold42
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBold43
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"43"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBold44
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBold45
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"45"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBold50
+		{
+			"1"
+			{
+				"name"		"MNewsGothic-Bold"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+		
 		LegoishBoldItalic15
 		{
 			"1"
@@ -3085,6 +3151,26 @@ Scheme
 			{
 				"name"		"NewsGothicBT-BoldItalic"
 				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBoldItalic45
+		{
+			"1"
+			{
+				"name"		"NewsGothicBT-BoldItalic"
+				"tall"		"45"
+				"antialias" "1"
+			}
+		}
+		
+		LegoishBoldItalic50
+		{
+			"1"
+			{
+				"name"		"NewsGothicBT-BoldItalic"
+				"tall"		"50"
 				"antialias" "1"
 			}
 		}

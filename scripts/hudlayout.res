@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c180"	[$WIN32]
+		"xpos"	"c160"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
 		"ypos"	"c185"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
