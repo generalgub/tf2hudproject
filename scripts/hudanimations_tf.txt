@@ -446,11 +446,28 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"Black"		Accel 0.05 0.15
-	Animate	ChargeLabel 	FgColor		"0 46 46 255"		Accel 0.35 0.45
+	Animate	ChargeLabel 	FgColor		"Black"		Linear 0.2 0.5
+	Animate	ChargeLabel 	FgColor		"0 185 185 255"		Linear 0.5 0.6
 	
-	Animate	ChargeMeter 	FgColor		"CoinNumberYellow"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"141 212 119 255"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"CoinNumberYellow"		Linear 0.0 0.2
+	Animate	ChargeMeter 	FgColor		"61 236 197 255"		Linear 0.4 0.6
+	
+	//Vacc anims
+	
+	Animate	IndividualChargesLabel 	FgColor		"CoinNumberYellow"		Linear 0.0 0.2
+	Animate	IndividualChargesLabel 	FgColor		"61 236 197 255"		Linear 0.4 0.6
+	
+	Animate	ChargeMeter1 	FgColor		"CoinNumberYellow"		Linear 0.0 0.1
+	Animate	ChargeMeter1 	FgColor		"141 212 119 255"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter2 	FgColor		"CoinNumberYellow"		Linear 0.05 0.15
+	Animate	ChargeMeter2 	FgColor		"141 212 119 255"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter3 	FgColor		"CoinNumberYellow"		Linear 0.07 0.17
+	Animate	ChargeMeter3 	FgColor		"141 212 119 255"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter4 	FgColor		"CoinNumberYellow"		Linear 0.09 0.19
+	Animate	ChargeMeter4 	FgColor		"141 212 119 255"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -466,11 +483,28 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"0 46 46 255"		Accel 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"Black"		Accel 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"0 185 185 255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"Black"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"141 212 119 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"61 236 197 255"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"CoinNumberYellow"		Linear 0.3 0.4
+	
+	//Vacc anim stop
+	
+	Animate	IndividualChargesLabel 	FgColor		"61 236 197 255"		Linear 0.0 0.1
+	Animate	IndividualChargesLabel 	FgColor		"CoinNumberYellow"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter1 	FgColor		"141 212 119 255"		Linear 0.0 0.1
+	Animate	ChargeMeter1 	FgColor		"CoinNumberYellow"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter2 	FgColor		"141 212 119 255"		Linear 0.05 0.15
+	Animate	ChargeMeter2 	FgColor		"CoinNumberYellow"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter3 	FgColor		"141 212 119 255"		Linear 0.07 0.17
+	Animate	ChargeMeter3 	FgColor		"CoinNumberYellow"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter4 	FgColor		"141 212 119 255"		Linear 0.09 0.19
+	Animate	ChargeMeter4 	FgColor		"CoinNumberYellow"		Linear 0.3 0.4
 }
 
 //====================================

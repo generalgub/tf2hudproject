@@ -92,9 +92,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"-33"
-		"ypos"			"33"
-		"zpos"			"3"
+		"xpos"			"108"
+		"ypos"			"0"
+		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"40"
 		"autoResize"	"1"
@@ -106,10 +106,9 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"LegoishBold40"
+		"fgcolor_override" "CoinNumberYellow"
 	}
-
-	
 	
 	"ChargeMeter"
 	{	
